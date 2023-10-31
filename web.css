@@ -1,0 +1,375 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    list-style-type: none;
+    background: linear-gradient(to bottom, rgba(255, 206, 246, 0.518), rgba(175, 225, 239, 0.527));
+   
+}
+header{
+    background-image: url(anh15.jpg);
+    background-size:cover;
+    height: 252px;  
+}
+
+/* /////search//////// */
+* {box-sizing: border-box;}
+   
+.search {
+  overflow: hidden;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  text-decoration: none;
+ 
+}
+   
+.search input[type=text] {
+  outline: none;
+  padding: 6px;
+  margin-top: 5px;
+  margin-right: 16px;
+  border: none;
+  border-radius: 30px; 
+  font-size: 13px;
+  color: black;
+}  
+
+.sign{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 8px;
+}
+
+
+/*******td*******/
+.td p{
+    font-size: 12px;
+    font-weight: bold;
+}
+.td a{
+    font-weight: bolder;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+.td{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+/* ------------like-------------- */
+.thich .fas{
+    color: rgb(184, 20, 74);
+    font-size: 12px;
+    padding-top: 0.5px;
+}
+.like{
+    padding-left:20px ;
+    padding-top: 15px;
+}
+.like button[type="button"]{
+    border: solid 1px black;
+    color: #000000;
+    background-color: white ;
+    font-weight: 400;
+    font-size: 11px;
+    transition: 0.5s;
+    justify-content: center;
+    border-radius: 20px;
+}
+.like button[type="button"]:hover{
+    background: linear-gradient(to right bottom, #ca6c32b5, #8be7358f);
+    transition: 0.5s;
+}
+.like .a button[type="button"]{
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    border: solid black 1px;
+    background-color: white ;
+    color: #000000;
+    transition: 0.5s;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+.a button[type="button"]:hover{
+    background: #1ec9e38f;
+    transition: 0.5s;
+}
+#span button {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.thich{
+    width:50px ;
+    height: 25px;
+}
+.subrise{
+    width: 120px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+/* --------menu---------------- */
+nav{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    width: 70%;
+   
+}
+.menu li span{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 44px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+  
+.menu span{
+    border: none ;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding-top: 13px;
+    background-color: rgba(245, 245, 245, 0.347);
+    border-bottom: solid 4px #1ddacb; ;
+    padding-bottom: 7px;
+    width: 100px;
+    padding-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    margin-top: 45px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu li a:link {
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+ }
+.menu li a:hover{ 
+    text-decoration: none;
+    font-weight: 500px;
+    background-color: hsla(0, 0%, 100%, 0.297);
+    border-bottom:solid 4px #1ddacb; 
+    padding-bottom: 5px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+/* ----------body------------------------------- */
+/* \-----------newwsong-------------- */
+.main{
+    display: flex;
+    margin-right: 60px;
+    margin-left: 50px;
+    border: none;
+}
+
+.tieude{
+    display: block;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#anh{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    display: inline-table;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 10px;
+    margin: -7px;
+}
+.album .song{
+    border: none;
+    width: 64%;
+    padding-left: 25px;
+    
+}
+.newsong #no3{
+    font-size: 14px;
+    color: #000000;
+    display: inline-table;
+    text-align: left;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.music #no3{
+    font-size: 14px;
+    color: #000000;
+    display: inline-table;
+    text-align: right;
+    vertical-align: middle;
+    margin-left: 100px;
+    text-decoration: none;
+}  
+.album b{
+    font-size: 16px;
+    font-weight: bold;
+}
+#no3:hover{
+    color: #831774;
+}
+.album hr{
+    width: 50%;
+    float: left;
+}
+.album .fas {
+    padding-right: 15px;
+}
+
+/* -----------lienquan----------------- */
+
+
+#avt{
+    height: 50px;
+    width: 60px;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 45%;
+    border-bottom-left-radius: 55%;
+    border-bottom-right-radius: 40%;
+    object-fit: fill;
+    display: inline-table;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.more{
+    display: block;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+
+}
+.more .song{
+    border: none;
+    width: 80%;
+    padding-left: 25px;
+    display: inline-table;
+    text-align: left;
+    vertical-align: middle;
+    
+}
+.more #no3{
+    font-size: 11px;
+    color: #000000;
+    display: inline-table;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.more b{
+    font-size: 13px;
+    font-weight: bold;
+}
+.more .m{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* -----------network-------------- */
+footer{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-color: #00000036;
+    border-style: double none none none ;
+}
+.network{
+    float: right;
+    margin-top: 16px;
+}
+.network a{
+    font-size: 11px;
+    color: #0000002a;
+    font-weight: bolder;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.icon{
+    margin-left: 10px;
+    padding-left:auto;
+
+}
+.network button[type="button"]{
+  background: none;
+  outline: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border: solid 1px rgba(0, 0, 0, 0.176);
+  background-color: rgba(255, 255, 255, 0.427);
+  color: #00000024;
+  font-size: 17px;
+  transition: 0.5s;
+}
+.face button[type="button"]:hover{
+  background: #0450a7;
+  transition: 0.5s;
+  color: whitesmoke;
+}
+.you button[type="button"]:hover{
+  background: #ff0000e8;
+  transition: 0.5s;
+  color: whitesmoke;
+}
+.insta button[type="button"]:hover{
+   background: linear-gradient(to bottom, rgb(138, 4, 138), rgb(255, 115, 0));
+  transition: 0.5s;
+  color: whitesmoke;
+}
+.wei button[type="button"]:hover{
+  background: #9a0000;
+  transition: 0.5s;
+  color: whitesmoke;
+}
+.twit button[type="button"]:hover{
+  background: #0096f3;
+  transition: 0.5s;
+  color: whitesmoke;
+}
+
+/* -----------footer------------- */
+.logo{
+    height: 26px;
+    width: 48px;
+    display: inline-table;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.foot{
+    display: flex;
+    margin-top: 8px;
+  } 
+.link a{
+    font-size: 12px;
+    font-weight: bolder;
+    color: #00000050;
+    display: inline-table;
+    text-align: left;
+}
+
+

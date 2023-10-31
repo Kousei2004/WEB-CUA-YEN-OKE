@@ -1,0 +1,148 @@
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(nen123.jpg);
+    background-size: cover;
+}
+
+.head{
+    background-color: rgba(0, 0, 0, 0.598);
+    height: 150px;
+}
+.grey{
+    display: flex;
+    background-color: rgba(233, 233, 233, 0.815);
+    height: 120px;
+    width: 900px;
+    margin-top: -70px;
+    margin-left: 185px;
+    border-radius: 20px;
+}
+img{
+    border: solid 1px black;
+    background-color: blueviolet;
+    margin-left: 70px;
+    margin-top: -25px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.name{
+    display: flow-root;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.name a{
+    display: flex;
+    border: solid 3px rgba(0, 0, 0, 0.719);
+    border-style:inset;
+    background-color: azure;
+    border-radius: 16px;
+    height: 22px;
+    width: 120px;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 15px;
+}
+.social{
+    margin-left: 280px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.498);
+}
+
+.body{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 185px;
+}
+
+/* ---------left------------- */
+.left{
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(164, 163, 163, 0.735);
+    width: 120px;
+    height: 400px;
+}
+.left .fas{
+    color: black;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.left #book i{
+    border: solid 1px rgba(250, 67, 0, 0.53);
+    border-radius: 18px;
+    background: linear-gradient(to top left, rgba(222, 151, 65, 0.737), rgba(227, 67, 179, 0.779));
+    width: 65px;
+    height: 42px;
+    padding-left: 30px;
+    padding-top: 13px;
+    margin-left: 12px;
+    color: azure;
+}
+
+#feather .fas, #user .fas, #globe .fas, #ture .fas{
+    border: none;
+    border-radius: 18px;
+    background: none;
+    width: 65px;
+    height: 42px;
+    padding-left: 30px;
+    padding-top: 13px;
+    margin-left: 12px;
+}
+
+#feather .fas:hover, #user .fas:hover, #globe .fas:hover, #ture .fas:hover{
+    border: solid 1px rgba(247, 66, 0, 0.53);
+    border-radius: 18px;
+    background: linear-gradient(to top left, rgba(222, 151, 65, 0.55), rgba(227, 67, 179, 0.61));
+    width: 65px;
+    height: 42px;
+    padding-left: 30px;
+    padding-top: 15px;
+    margin-left: 12px;
+    color: azure;
+}
+
+
+/* ----------right------------ */
+.right{
+    background-color: rgba(164, 163, 163, 0.735);
+    border-radius: 20px;
+    width: 720px;
+    height: 400px;
+    margin-left: 25px;
+    padding-left: 30px;
+    margin-left: 30px;
+}
+
+.right p{
+    border-bottom: solid 4px rgb(0, 0, 0);
+    width: 400px;
+    height: 25px;
+    margin-left: 70px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.right b{
+    font-size: 12px;
+    color: rgba(50, 0, 31, 0.416);
+    margin-left: -20px;
+}
+.right .p{
+    border: none rgb(79, 26, 44);
+    border-style: outset ;
+    border-radius: 16px;
+    background-color: rgba(217, 75, 125, 0.333);
+    width: 550px;
+    height: 330px;
+    margin-left: 50px;
+   
+}
+

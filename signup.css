@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+  width: 100%;
+  background-image: url(g.jpg);
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+.box {
+  display: flex;
+  margin-left: 250px;
+  margin-top: 40px;
+}
+form {
+  background-color:rgba(245, 245, 245, 0.486);
+  background: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  text-align: center;
+}
+header{
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 40px;
+  color: rgb(255, 89, 0);
+}
+p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+}
+a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+span {
+  display: block;
+  font-size: 12px;
+  margin-top: 30px;
+}
+.checkbox {
+  display: flex;
+  margin-left: 10px;
+}
+
+
+/* ------signup------- */
+.signup{
+  border: none;
+  width:30% ;
+  height: 520px;
+  background: linear-gradient(to right bottom, #ef6226e2, #97e735c4);
+  border-top-right-radius:10px ;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.616);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  text-align: center;
+}
+.signin{
+  border: none;
+  background: none;
+  background-color: rgba(245, 245, 245, 0.486);
+  text-align: justify;
+  width:37% ;
+  height: 520px;
+  border-top-left-radius:10px ;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.317);
+}
+.user{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: -10px;
+}
+.lock{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.relock{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: -8px;
+}
+.signin .fas{
+  margin-top: 14px;
+  padding-top: 12px;
+  padding-right: 5px;
+  height: 39px;
+  color: rgba(0, 0, 0, 0.717);
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+#account, #pass, #email, #repass {
+  background-color: rgba(212, 212, 212, 0.6);
+}
+.box .left input[type="submit"] {
+  border: 1px solid #FF4B2B;
+  background-color: #FF4B2B;
+}
+.right input {
+  border: 1px solid #f5f5f5;
+}
+.box input[type="password"], .box input[type="text"]{
+  outline: none;
+  border: none;
+  width: 210px;
+  height: 40px;
+  border-radius: 40px;
+  padding: 0px 15px;
+  margin: 15px 0px;
+  transition: 1s;
+}
+.box input[type="submit"]{
+  background: none;
+  outline: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 40px;
+  margin: 15px 0px;
+  font-size: 15px;
+  transition: 1s;
+  font-weight: bold;
+}
+.left input[type="submit"]:hover{
+  background: linear-gradient(to right bottom, #ca3274c4, #e7d235b5);
+  color: rgb(18, 18, 18);
+  transition: 0.3s;
+}
+.right input[type="submit"]:hover{
+  background: linear-gradient(to right bottom, #992755c4, #209b99b5);
+  color: whitesmoke;
+  border: 0.5px solid white;
+  transition: 0.2s;
+}
+.face a:hover{
+  background: #0450a7;
+  transition: 0.5s;
+  color: whitesmoke;
+}
+.go a:hover{
+  background: #22b022e8;
+  transition: 0.5s;
+  color: whitesmoke;
+}
+.twit a:hover{
+  background: #0096f3;
+  transition: 0.5s;
+  color: whitesmoke;
+}
+.social {
+  font-size: 17px;
+  margin-top: 15px ;
+  margin-bottom: 20px;
+}
+.social a {
+  border: 1px solid #00000090;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}
+.forgot {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+
+}
+.forgot a:hover{
+  text-decoration: underline;
+  color: #d9023bd3;
+}
+
+

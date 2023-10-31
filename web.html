@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="web.css">
+    <script type="text/javascript" src="web.js"></script>
+</head>
+<body>
+    <header>
+        <div class="search">
+            <i id="icon" class="fas fa-search" aria-hidden="true"></i>
+                <input id="s" type="text" placeholder="Tìm kiếm...."/>  
+            <a href="login.html" class="sign">
+                <i style="padding-right: 10px; color: aliceblue;" id="icon" class="fas fa-sign-in-alt"></i>
+            </a>
+        </div>
+
+        <div class="td">
+            <p>NHÓM NHẠC</p>
+            <a>BIG BANG (빅뱅)</a>
+        </div>
+
+        <div class="like">
+            <button type="button" class="thich" onclick="return validate()">
+                <i class="fas fa-heart" aria-hidden="true"></i>
+            </button>
+            <button type="button" class="subrise" onclick="return validate()">Theo dõi</button>  
+            <a class="a" href="#"><button type="button"><span id="span">...</span></button></a>  
+        </div>
+
+        <div class="menu">
+            <nav>
+                <li style="margin-right: 25px; margin-left: 20px;"><span  href="web.html">Tổng quan </span></li>
+                <li style="margin-right: 25px;"><a href="gioithieu.html"> Giới thiệu</a></li>
+                <li style="margin-right: 25px;">
+                    <a href="https://vi.wikipedia.org/wiki/Danh_s%C3%A1ch_%C4%91%C4%A9a_nh%E1%BA%A1c_c%E1%BB%A7a_Big_Bang"> 
+                        Album</a></li>
+                <li style="margin-right: 25px;">
+                    <a href="https://kenh14.vn/big-bang.html"> <i style="font-size: 12px;" class="fas fa-bell"></i>
+                    Tin tức</a>
+                </li>
+                <li style="margin-right: 25px;">
+                    <a href="user.html"> <i class="fas fa-user"></i>
+                    Người dùng</a>
+                </li>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main">
+
+        <div class="album">
+            <div style="margin-top: 45px; margin-left: 25px;" class="newsong">
+                <a class="tieude">Bản nhạc mới nhất</a>
+                <hr>
+            <div class="song">
+                    <img id="anh" src="still.jpg" alt="bigbang">
+                    <a id="no3" href="https://shopee.vn/mall" >
+                    <b style="font-weight: bolder; font-size: 15px;"> Still life</b> (봄여름가을겨울) <br>04-05-2022
+                    </a>
+                </a>
+            </div>
+            </div>
+        
+        <!-- ===================================================== -->
+            <div style="margin-top: 30px; margin-left: 25px" class="music">
+                <a class="tieude">Danh sách bài hát</a>
+            <hr>
+            <div class="song">
+                <img id="anh" src="haru.jpg" alt="bts">
+                <a id="no3" href="https://shopee.vn/mall" > 
+                    <i class="fas fa-play" aria-hidden="true"></i>
+                    <b>Haru Haru</b> (하루하루)<br>2012
+                </a>
+
+                <img id="anh" src="fantasic.jpg" alt="bigbang">
+                    <a id="no3" href="https://shopee.vn/mall" >
+                    <i class="fas fa-play" aria-hidden="true"></i> 
+                    <b>Fantastic Baby</b> (판타스틱 베)<br><br>2012
+                </a>
+
+                <img id="anh" src="bang.jpg" alt="bigbang">
+                    <a id="no3" href="https://shopee.vn/mall" >
+                    <i class="fas fa-play" aria-hidden="true"></i> 
+                    <b>Bang Bang Bang</b> (뱅뱅뱅)<br><br>2016
+                </a>
+
+                <img id="anh" src="loser.jpg" alt="bigbang">
+                    <a id="no3" href="https://shopee.vn/mall" >
+                    <i class="fas fa-play" aria-hidden="true"></i>
+                    <b >Loser</b>   (외톨이)<br> 2015
+                </a>
+            
+                <img id="anh" src="hevan.jpg" alt="bigbang">
+                    <a id="no3" href="https://shopee.vn/mall" >
+                    <i class="fas fa-play" aria-hidden="true"></i>
+                    <b> Heaven</b>   (천국)<br>2016
+                </a>
+
+                <img id="anh" src="fallin.jpg" alt="bigbang">
+                    <a id="no3" href="https://shopee.vn/mall" >
+                    <i class="fas fa-play" aria-hidden="true"></i>
+                    <b>Let's not fallin love ...</b><br>(우리 사랑하지 말아요)<br>2015
+                </a>
+
+                <img id="anh" src="sunset.jpg" alt="bigbang">
+                    <a id="no3" href="https://shopee.vn/mall" >
+                    <i class="fas fa-play" aria-hidden="true"></i>
+                    <b > Sunset Glow</b> (붉은 노을)<br> 2008
+                    </a>
+            </div>
+            </div>
+        </div>
+
+        <!-- ////////////////////////////////////////////////// -->
+
+        <div class="more">
+            <a class="m" >Có thể bạn quan tâm </a>
+            <hr>
+            <div class="song">
+            <img id="avt" src="T-ara.jpg" alt="tara">
+                <a id="no3" href="https://shopee.vn/mall" >
+                    <b >T-ARA</b><br> 티아라
+                </a>
+
+            <img id="avt" src="nu_est___face___logo_by_pixelbg_d4wobiw-fullview.jpg" alt="face">
+                <a id="no3" href="https://shopee.vn/mall" >
+                    <b > NUEST</b><br>  뉴이스트
+                </a>
+
+            <img id="avt" src="logo-exo-1.jpg" alt="exo">
+                <a id="no3" href="https://shopee.vn/mall" >
+                    <b >EXO</b><br> 엑소
+                </a>
+
+            <img id="avt" src="bts-logo-3.jpg" alt="bts">
+                <a id="no3" href="https://shopee.vn/mall" >
+                    <b > BTS</b><br> 방탄소년단
+                </a>
+
+            <img id="avt" src="Black-pink-logo.png" alt="bp">
+                <a id="no3" href="https://shopee.vn/mall" >
+                    <b > BlackPink</b><br>블랙핑크
+                </a>
+
+            <img id="avt" src="images.jpg" alt="2Ne1">
+                <a id="no3" href="https://shopee.vn/mall" >
+                    <b > 2NE1</b><br> 투애니원
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <div class="network">
+            <a>OFFICIAL ST ENTERTAINMENT SOCIAL NETWORKS</a>
+            <div class="icon">
+            <label class="you"><button name="button" type="button"> 
+                <i class="fab fa-youtube" aria-hidden="true"></i></button>
+            </label>
+            <label id="check" for="check"></label>
+            
+            <label class="face"><button name="button" type="button"> 
+                <i class="fa fa-facebook-square" aria-hidden="true"></i></button>
+            </label>
+            <label id="check" for="check"></label> 
+
+            <label class="insta"><button name="button" type="button"> 
+                <i class="fa fa-instagram" aria-hidden="true"></i></button>
+            </label>
+            <label id="check" for="check"></label> 
+
+            <label class="twit"><button name="button" type="button"> 
+                <i class="fab fa-twitter" aria-hidden="true"></i></button>
+            </label>
+            <label id="check" for="check"></label> 
+
+            <label class="wei"><button name="button" type="button"> 
+                <i class="fab fa-weibo" aria-hidden="true"></i></button>
+            </label>
+            <label id="check" for="check"></label> 
+        </div>
+        </div>
+    
+    <div class="foot">
+        <div class="link">
+                <img style="margin-top: 20px;" class="logo" src="T1.jpg" alt="t1">
+            <a>
+                T1 Entertainment의 모든 컨텐츠는 저작권의 보호를 받고 있습니다.
+                <br>Copyright T1 Entertainment All Rights Reserved. 
+            </a>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>

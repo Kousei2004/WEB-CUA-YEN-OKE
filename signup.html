@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="signup.css">
+    <script type="text/javascript" src="signup.js"></script>
+</head>
+<body>
+
+  <div class="box">
+
+    <div class="signin">
+
+    <form method="post" action="#" >
+        <header> ĐĂNG KÝ </header>
+
+      <a class="user">
+        <i class="fas fa-user"></i>
+        <input type="text"  placeholder="Tên tài khoản" id="account" />
+      </a>
+
+      <a class="user">
+        <i class="fas fa-envelope"></i>
+        <input type="text"  placeholder="user@gmail.com" id="email" />
+      </a>
+        
+      <a class="lock">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder="Mật khẩu ( từ 6 kí tự trở lên)" id="pass">
+      </a>
+
+       <a class="relock">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder="Nhập lại mật khẩu" id="repass">
+      </a>
+        <a href="https://shopee.vn/mall" class="checkbox">
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <label style="font-size: 12px; margin-top: 3px;" class="check-box">Đồng ý với điều khoản của chúng tôi</label>
+        </a>
+
+    </form>
+
+    <a href="web.html" style="margin-left: 115px;">
+        <label class="left" for="log" class="left">
+          <input type="submit" class="submit" value="Đăng ký" onclick="return validate()"></label>
+        <label id="check" for="check"></label>
+    </a>
+    </div>
+    
+    <div class="signup">
+        <div class="right">
+        <header style="color: azure; font-size: 35px; ">welcome to!</header>
+          <p style="color: azure;">if you have an account. Please log in to join us!</p>
+          <a  href="login.html">
+          <input style="  ; font-size: 15px;" type="submit" class="submit" value="Đăng nhập">
+        </a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
